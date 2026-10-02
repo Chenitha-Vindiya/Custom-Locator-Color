@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.customlocatorcolor.title": "Custom Locator Color",
+  "text.autoconfig.customlocatorcolor.option.customLocators": "Custom Locators",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator": "Custom Locator",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator.name": "Player Name",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator.color": "Color"
+}

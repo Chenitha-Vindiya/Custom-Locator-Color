@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.customlocatorcolor.title": "Custom Locator Color",
+  "text.autoconfig.customlocatorcolor.option.customLocators": "Кастомные локаторы",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator": "Кастомный локатор",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator.name": "Имя игрока",
+  "text.autoconfig.customlocatorcolor.option.CustomLocator.color": "Цвет",
+
+  "modmenu.summaryTranslation.customlocatorcolor": "Добавляет кастомные цвета локаторам по именам",
+  "modmenu.descriptionTranslation.customlocatorcolor": "Добавляет кастомные цвета локаторам по именам"
+}

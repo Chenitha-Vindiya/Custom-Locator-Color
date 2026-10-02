@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "org.trivait.customlocatorcolor.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"LocatorBarRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

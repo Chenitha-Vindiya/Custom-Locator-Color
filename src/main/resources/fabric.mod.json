@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "customlocatorcolor",
+	"version": "${version}",
+	"name": "CustomLocatorColor",
+	"description": "Custom locator color by name",
+	"authors": [
+		"TRIVAIT"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/Trivait",
+		"sources": "https://github.com/TRIVAIT-MODS/CustomLocatorColor",
+		"issues": "https://github.com/TRIVAIT-MODS/CustomLocatorColor/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/customlocatorcolor/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"org.trivait.customlocatorcolor.CustomLocatorColor"
+		],
+		"modmenu": [
+			"org.trivait.customlocatorcolor.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"customlocatorcolor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"modmenu": ">=21.0.0",
+		"cloth-config2": ">=26.3.158"
+	}
+}

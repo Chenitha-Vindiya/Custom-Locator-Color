@@ -1,0 +1,3 @@
+Download cloth-config-26.3.158.jar (Fabric 26.3) from
+https://modrinth.com/mod/cloth-config or https://www.curseforge.com/minecraft/mc-mods/cloth-config
+and place it in this folder before building.
