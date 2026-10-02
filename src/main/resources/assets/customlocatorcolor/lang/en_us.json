@@ -1,7 +1,18 @@
 {
-  "text.autoconfig.customlocatorcolor.title": "Custom Locator Color",
-  "text.autoconfig.customlocatorcolor.option.customLocators": "Custom Locators",
-  "text.autoconfig.customlocatorcolor.option.CustomLocator": "Custom Locator",
-  "text.autoconfig.customlocatorcolor.option.CustomLocator.name": "Player Name",
-  "text.autoconfig.customlocatorcolor.option.CustomLocator.color": "Color"
+  "key.customlocatorcolor.open_config": "Open Locator Color Settings",
+  "key.category.customlocatorcolor.keys": "Custom Locator Color",
+
+  "customlocatorcolor.config.title": "Custom Locator Color",
+  "customlocatorcolor.config.category": "Players",
+  "customlocatorcolor.config.description": "Give any player their own color on the locator bar. Player names are not case sensitive. Tip: press the hotkey (default X, changeable in Controls) to open this screen anytime in-game.",
+  "customlocatorcolor.config.enabled": "Enable custom colors",
+  "customlocatorcolor.config.enabled.tooltip": "Turn this off to show all locators in their normal colors without deleting your list.",
+  "customlocatorcolor.config.players": "Player colors",
+  "customlocatorcolor.config.players.tooltip": "Click the + button to add a player. New entries appear at the top.",
+  "customlocatorcolor.config.player.new": "New player",
+  "customlocatorcolor.config.player.name": "Player name",
+  "customlocatorcolor.config.player.name.tooltip": "The exact in-game username (case does not matter).",
+  "customlocatorcolor.config.player.name.empty": "Please enter a player name.",
+  "customlocatorcolor.config.player.color": "Locator color",
+  "customlocatorcolor.config.player.color.tooltip": "Click the color box to pick a color, or type a hex code like #FF0000."
 }

@@ -1,7 +1,6 @@
 package org.trivait.customlocatorcolor.config;
 
 import me.shedaniel.autoconfig.ConfigData;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,12 +8,15 @@ import java.util.List;
 @me.shedaniel.autoconfig.annotation.Config(name = "customlocatorcolor")
 public class Config implements ConfigData {
 
+    /** Master switch: when false, every locator keeps its normal color. */
+    public boolean enabled = true;
+
     public List<CustomLocator> customLocators = new ArrayList<>();
 
     public static class CustomLocator {
-        public String name = "steve";
+        public String name = "Steve";
 
-        @ConfigEntry.ColorPicker(allowAlpha = false)
+        /** RGB color, e.g. 0xFF0000 = red. */
         public int color = 0xFFFFFF;
 
         public CustomLocator() {}

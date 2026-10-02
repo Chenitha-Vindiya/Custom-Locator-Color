@@ -3,15 +3,11 @@
 	"id": "customlocatorcolor",
 	"version": "${version}",
 	"name": "CustomLocatorColor",
-	"description": "Custom locator color by name",
+	"description": "Give any player a custom color on the locator bar. Open the settings with a hotkey or via Mod Menu.",
 	"authors": [
-		"TRIVAIT"
+		"Cheni"
 	],
-	"contact": {
-		"homepage": "https://modrinth.com/user/Trivait",
-		"sources": "https://github.com/TRIVAIT-MODS/CustomLocatorColor",
-		"issues": "https://github.com/TRIVAIT-MODS/CustomLocatorColor/issues"
-	},
+	"contact": {},
 	"license": "MIT",
 	"icon": "assets/customlocatorcolor/icon.png",
 	"environment": "client",

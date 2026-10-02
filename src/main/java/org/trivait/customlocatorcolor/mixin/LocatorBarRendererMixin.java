@@ -20,7 +20,7 @@ public class LocatorBarRendererMixin {
     @Inject(method = "icon", at = @At("RETURN"), cancellable = true)
     private void injectCustomColor(CallbackInfoReturnable<Waypoint.Icon> cir) {
         Minecraft mc = Minecraft.getInstance();
-        if (mc.player == null) return;
+        if (mc.player == null || !CustomLocatorColor.CONFIG.enabled) return;
 
         TrackedWaypoint self = (TrackedWaypoint) (Object) this;
 
